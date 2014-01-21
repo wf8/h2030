@@ -1,0 +1,33 @@
+/*
+Theme Name:     habitat2030
+Description:    Child theme for the Lenora theme 
+Template:       lenora
+*/
+
+@import url("../lenora/style.css");
+
+strong, b {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-weight:bold;
+	vertical-align: baseline;
+	color:#333;
+}
+
+i {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-style:italic;
+	vertical-align: baseline;
+	color:#333;
+}
+
+/* Really Simple Gallery Widget -- Create a grid of images - will not work with captions in the current version. Adjust the margins to fit in the width of the widget area - there will be leftover margin on some sides
+Be careful - the floating may cause your layout to behave strangely, especially anything that follows the gallery widget */
+.rsg_image { float:left; margin:0 5px 5px 0; }
